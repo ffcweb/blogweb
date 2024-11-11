@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  header */
+
+.header {
+  padding-top: 22px;
+  padding-bottom: 25px;
+  background-color: black;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  banner */
+
+.banner {
+  background-image: url(isto.jpg);
+  height: 650px;
+  background-color: rgba(0, 0, 0, 60%);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.tags {
+  padding-top: 230px;
+  padding-bottom: 200px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.tags h2 {
+  text-transform: capitalize;
+  font-size: 75px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 200;
+}
+
+.tags p {
+  font-size: 28px;
+  font-family: "Nunito", sans-serif;
+}
+
+/*  blog tittle*/
+
+.blog {
+  padding: 30px 0px 90px 0px;
+  /* top, right, bottom, left. */
+}
+
+.blog-title {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.blog-title h3 {
+  color: rgb(35, 142, 236);
+  font-size: 28px;
+  font-weight: 1000;
+  font-family: "Nanum Gothic", sans-serif;
+  margin-bottom: 15px;
+}
+
+.blog-title h4 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: gray;
+}
+
+hr {
+  top: 20px;
+  border: none;
+  height: 3px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: 80px;
+  background-color: rgb(35, 142, 236);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  blog-cards  */
+.blog-cards-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-img {
+  background-image: url(isto.jpg);
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.card-text {
+  padding: 5px;
+}
+
+.blog-card-child h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  text-transform: capitalize;
+}
+
+.blog-card-child p {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 400;
+  color: rgb(80, 79, 79);
+}
